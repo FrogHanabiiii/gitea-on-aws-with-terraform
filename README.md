@@ -33,7 +33,8 @@ Deployed automatically with:
 
 ## 👨‍💻 Author
 
-Royston
+Royston Liu Xin Shen
+
 AWS Certified | Cloud & DevOps Enthusiast 
 
 
