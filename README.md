@@ -27,7 +27,7 @@ https://aurafish.space
 Deployed automatically with:
 - Terraform-managed EC2
 - ALB + ACM (HTTPS)
-- Domain name via Freenom or GoDaddy
+- Domain name via GoDaddy
 
 ---
 
