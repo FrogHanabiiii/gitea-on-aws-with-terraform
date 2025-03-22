@@ -26,12 +26,12 @@ ssh -i my-key.pem ec2-user@<EC2_PUBLIC_IP>
 
 ## 🐳 3. Install Docker
 
-sudo yum update -y
-sudo amazon-linux-extras enable docker
-sudo yum install docker -y
-sudo service docker start
-sudo systemctl enable docker
-sudo usermod -aG docker ec2-user
+- sudo yum update -y
+- sudo amazon-linux-extras enable docker
+- sudo yum install docker -y
+- sudo service docker start
+- sudo systemctl enable docker
+- sudo usermod -aG docker ec2-user
 
 | Re-ssh for docker group access.
 
@@ -39,12 +39,12 @@ sudo usermod -aG docker ec2-user
 
 ## 📁 4. Run Gitea Container
 
-mkdir -p ~/gitea/data #create directory for gitea
+- mkdir -p ~/gitea/data #create directory for gitea
 
-docker run -d --name=gitea \
-  -p 3000:3000 \
-  -v ~/gitea/data:/data \
-  gitea/gitea:latest
+- docker run -d --name=gitea \
+   -p 3000:3000 \
+   -v ~/gitea/data:/data \
+   -gitea/gitea:latest
 
 ---
 
