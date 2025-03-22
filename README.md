@@ -13,20 +13,27 @@ This project demonstrates how to deploy a self-hosted Git service, **Gitea**, on
 - Gitea (via Docker container)
 - Application Load Balancer (ALB)
 - Amazon Certificate Manager (ACM)
-- Freenom / GoDaddy custom domain (CNAME mapped)
+- GoDaddy custom domain (My own domain name: aurafish.space)
 - Terraform (Infrastructure as Code)
 
 ---
 
-## 📌 Current Status
+## 📂 Final Goal
 
-- ✅ EC2 instance manually provisioned
-- ✅ Docker and Gitea installed manually
-- ✅ Gitea accessible at `http://<EC2_PUBLIC_IP>:3000`
-- ⏳ ALB + HTTPS configuration in progress
-- ⏳ Terraform automation in development
+Once completed, Gitea will be available at:
+
+https://aurafish.space
+
+Deployed automatically with:
+- Terraform-managed EC2
+- ALB + ACM (HTTPS)
+- Domain name via Freenom or GoDaddy
 
 ---
 
-## 📂 Directory Structure
+## 👨‍💻 Author
+
+Royston
+AWS Certified | Cloud & DevOps Enthusiast 
+
 
