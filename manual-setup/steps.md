@@ -58,7 +58,7 @@ Expected: Gitea welcome screen (initial setup)
 
 ---
 
-## 🌐 6. Set Up Domain and HTTPS
+## 🌍 6. Set Up Domain and HTTPS
 
 This section explains how to make Gitea accessible over HTTPS via a custom domain using AWS Application Load Balancer (ALB), ACM certificate, and GoDaddy DNS.
 
